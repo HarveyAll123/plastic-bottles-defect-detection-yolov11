@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['defect', 'non-defect']
+
+roboflow:
+  workspace: project-g2k5y
+  project: plastic-bottle-qmdcg
+  version: 6
+  license: MIT
+  url: https://universe.roboflow.com/project-g2k5y/plastic-bottle-qmdcg/dataset/6
